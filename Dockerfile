@@ -1,7 +1,7 @@
 FROM androidsdk/android-29:latest
 
 ENV CORDOVA_VERSION 10.0.0
-ENV IONIC_VERSION 6.12.0
+ENV IONIC_VERSION 6.12.1
 
 # Update to NodeJS 12
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash
